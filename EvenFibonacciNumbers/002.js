@@ -1,11 +1,18 @@
 const x = 1;
 const y = 2;
-i = x + y;
+sum = 0;
 
 function fibonacci() {
-  for (i = x + y; i <= 1000000; i++) {
-    return i;
-  }
+  sum = x + y;
+
+  return sum;
 }
 
-console.log(fibonacci());
+for (i = y; y <= 1000000; y++){
+  return y;
+}
+
+// function sequence() {
+//   fibonacci() + y;
+// }
+console.log(y);
