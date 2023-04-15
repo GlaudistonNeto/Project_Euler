@@ -1,18 +1,24 @@
+
 const x = 1;
 const y = 2;
 sum = 0;
 
 function fibonacci() {
-  sum = x + y;
+  for (let y = 1; y <= 4000000; y++){
+    if (y != 2){
+      y++
+    }
+    sum = x + y;
+    console.log(sum);
+    // only counting even numbers
+  }
 
   return sum;
-}
+} // finish it
 
-for (i = y; y <= 1000000; y++){
-  return y;
-}
+fibonacci();
 
+// tudo
 // function sequence() {
 //   fibonacci() + y;
 // }
-console.log(y);
