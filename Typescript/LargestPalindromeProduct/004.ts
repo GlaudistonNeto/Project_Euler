@@ -23,3 +23,5 @@ function findLargestPalindrome(): number {
 
 const largestPalindrome = findLargestPalindrome();
 console.log(`The largest palindrome made from the product of two 3-digit numbers is ${largestPalindrome}.`);
+
+// You should run tsc 004.ts then run 004.js
