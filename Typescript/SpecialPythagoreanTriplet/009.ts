@@ -19,4 +19,4 @@ if (product !== -1) {
   console.log(`No Pythagorean triplet found with a sum of ${targetSum}.`);
 }
 
-// You should run cd then run 009.js
+// You should run tsc 09.ts then run 009.js
