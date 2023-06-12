@@ -59,3 +59,5 @@ const adjacentSize = 4;
 
 const greatestProduct = findGreatestProduct(gridData, adjacentSize);
 console.log("The greatest product of four adjacent numbers in the grid is:", greatestProduct);
+
+// You should run tsc 011.ts then run 011.js
